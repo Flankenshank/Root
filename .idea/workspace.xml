@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="743f0234-8949-4f5c-87d3-fc4f5304301e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Mechanical Marquise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/birdsong.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daylight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evening.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="743f0234-8949-4f5c-87d3-fc4f5304301e" name="Changes" comment="Created Mechanical Marquise. Birdsong, and first two steps of Daylight - battle and recruit." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1773683369900</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created Mechanical Marquise. Birdsong, and first two steps of Daylight - battle and recruit.">
+      <option name="closed" value="true" />
+      <created>1773687590370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773687590370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Mechanical Marquise. Birdsong, and first two steps of Daylight - battle and recruit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Mechanical Marquise. Birdsong, and first two steps of Daylight - battle and recruit." />
   </component>
 </project>
