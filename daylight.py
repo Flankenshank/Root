@@ -35,3 +35,7 @@ def build(order_suite):
         case _:
             order_building = 'unknown'
     print(f'Place a {order_building} in the clearing you rule with the most Marquise warriors.')
+
+def move(order_suite):
+    print(f'Move all but 3 of your warriors from each {order_suite} clearing to\n'
+          f'the adjacent clearing with the most enemy pieces')
