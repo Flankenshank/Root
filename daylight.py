@@ -3,17 +3,35 @@ def battle(order_suite):
           f'The defender is the player with the most pieces in the clearing of battle.\n'
           f'In the case of the tie, choose the player with the most victory points.')
 
+
 def recruit(order_suite):
     while True:
-        answer = input(f'Place four Warriors among {order_suite} clearings you rule. How many {order_suite} clearings do you rule? ')
+        answer = input(f'Place 4 Warriors among {order_suite} clearings you rule.\n'
+                       f'How many {order_suite} clearings do you rule? ')
         if answer == '1':
-            print('Place four Warriors here')
+            print('Place 4 Warriors here')
             break
         elif answer == '2':
-            print('Place two Warriors in each clearing')
+            print('Place 2 Warriors in each clearing')
             break
         elif answer == '3':
-            print('Place three Warriors in each clearing, and one more in the highest priority clearing.')
+            print('Place 1 Warriors in each clearing, and 1 more in the highest priority clearing.')
+            break
+        elif answer == '0':
+            print('Recruit not possible')
             break
         else:
             print('Yeah, right!')
+
+
+def build(order_suite):
+    match order_suite:
+        case 'fox':
+            order_building = 'sawmill'
+        case 'mouse':
+            order_building = 'recruiter'
+        case 'rabbit':
+            order_building = 'workshop'
+        case _:
+            order_building = 'unknown'
+    print(f'Place a {order_building} in the clearing you rule with the most Marquise warriors.')
