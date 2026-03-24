@@ -39,3 +39,20 @@ def build(order_suite):
 def move(order_suite):
     print(f'Move all but 3 of your warriors from each {order_suite} clearing to\n'
           f'the adjacent clearing with the most enemy pieces')
+
+def expand():
+    while True:
+        answer = input("Did you place a building? Y/N ").upper()
+        if answer == "Y":
+            print("End Daylight. Start Evening")
+            break
+        elif answer == "N":
+            answer2 = int(input("How many buildings do you have on the map?"))
+            if answer2 > 5:
+                print("End Daylight. Start Evening")
+                break
+            else:
+                print("Draw and reveal a new order card (do not craft the item) and return to the start of Daylight")
+            break
+        else:
+            print("Please enter Y for yes or N for no")
